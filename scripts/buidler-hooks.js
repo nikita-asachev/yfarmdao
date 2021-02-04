@@ -36,7 +36,8 @@ module.exports = {
   // Called when the start task needs to know the app proxy's init parameters.
   // Must return an array with the proxy's init parameters.
   getInitParams: async ({ log }, { web3, artifacts }) => {
-    return [42]
+    // return [42]
+    return ['0x7798dc46E620F948f94E79c0D9BB842c1E9E4DB3', 10^18, 10^18, 1612442907]
   },
 
   // Called after the app's proxy is updated with a new implementation.

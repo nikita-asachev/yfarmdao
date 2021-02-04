@@ -1,14 +1,25 @@
 {
   "roles": [
     {
-      "name": "Increment the counter",
-      "id": "INCREMENT_ROLE",
+      "name": "Create new votes",
+      "id": "CREATE_VOTES_ROLE",
       "params": []
     },
     {
-      "name": "Decrement the counter",
-      "id": "DECREMENT_ROLE",
-      "params": []
+      "name": "Modify support",
+      "id": "MODIFY_SUPPORT_ROLE",
+      "params": [
+        "New support",
+        "Current support"
+      ]
+    },
+    {
+      "name": "Modify quorum",
+      "id": "MODIFY_QUORUM_ROLE",
+      "params": [
+        "New quorum",
+        "Current quorum"
+      ]
     }
   ],
   "environments": {
@@ -33,5 +44,5 @@
     }
   },
   "appName": "yfarmdao.aragonpm.eth",
-  "path": "contracts/CounterApp.sol"
+  "path": "contracts/Voting.sol"
 }
