@@ -24,6 +24,14 @@
     tcp-port-used "^1.0.1"
     tsconfig-paths "^3.9.0"
 
+"@aragon/contract-helpers-test@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@aragon/contract-helpers-test/-/contract-helpers-test-0.1.0.tgz#5c5f09739a0b33ab66843bc4849cb2b997d88af0"
+  integrity sha512-xP2CqqP0Jw/6Jdo1mRg4OxL+3gmsCYV3EJRy7xN8xUrhQIqkOyRptC44X951O7Cr+VeqXJq22rpZSr01TJZhNg==
+  dependencies:
+    web3-eth-abi "1.2.5"
+    web3-utils "1.2.5"
+
 "@aragon/contract-test-helpers@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@aragon/contract-test-helpers/-/contract-test-helpers-0.0.1.tgz#fb2e45e1aecdb2f115148f14686ab211a84242f2"
@@ -32,6 +40,11 @@
     ethereumjs-abi "^0.6.4"
     web3-eth-abi "^1.2.1"
     web3-utils "^1.2.1"
+
+"@aragon/minime@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@aragon/minime/-/minime-1.0.0.tgz#994284b38e2ca36b5ae923f090928948041c928f"
+  integrity sha512-FU6xQXkkRfaxo0n6HEnlsizSA12Te2bghozqW9XLdDbzpC84yDeqUOQAxmrHo5yQPIezRfz7IrNzpLVL6ZBORA==
 
 "@aragon/os@^4.4.0":
   version "4.4.0"
@@ -8131,6 +8144,15 @@ web3-eth-abi@1.2.4:
     underscore "1.9.1"
     web3-utils "1.2.4"
 
+web3-eth-abi@1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/web3-eth-abi/-/web3-eth-abi-1.2.5.tgz#7ffddd3a3e7bacd66a2186e5e388310786b9b548"
+  integrity sha512-Tz6AjGTlgZVpv01h2YgotoXoQAQgWacx82Zh72ZlZ4iBCs4SoiYvq6tfbW9pquylK2Egm23bELsrSSENz0204w==
+  dependencies:
+    ethers "4.0.0-beta.3"
+    underscore "1.9.1"
+    web3-utils "1.2.5"
+
 web3-eth-accounts@1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/web3-eth-accounts/-/web3-eth-accounts-1.2.1.tgz#2741a8ef337a7219d57959ac8bd118b9d68d63cf"
@@ -8579,6 +8601,20 @@ web3-utils@1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/web3-utils/-/web3-utils-1.2.4.tgz#96832a39a66b05bf8862a5b0bdad2799d709d951"
   integrity sha512-+S86Ip+jqfIPQWvw2N/xBQq5JNqCO0dyvukGdJm8fEWHZbckT4WxSpHbx+9KLEWY4H4x9pUwnoRkK87pYyHfgQ==
+  dependencies:
+    bn.js "4.11.8"
+    eth-lib "0.2.7"
+    ethereum-bloom-filters "^1.0.6"
+    ethjs-unit "0.1.6"
+    number-to-bn "1.7.0"
+    randombytes "^2.1.0"
+    underscore "1.9.1"
+    utf8 "3.0.0"
+
+web3-utils@1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/web3-utils/-/web3-utils-1.2.5.tgz#7691f981ce11dc919e123edbde159dce061a5a53"
+  integrity sha512-U0tNfB4Hep5ouzvNZ+Hr8I8kIftiHiDhwg+Eoh2Nvr5lLOPEH14B2exkRSARLXGY9xl2p3ykJWBCKoG1oCadug==
   dependencies:
     bn.js "4.11.8"
     eth-lib "0.2.7"

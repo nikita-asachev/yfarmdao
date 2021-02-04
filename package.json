@@ -13,6 +13,8 @@
     "publish:patch": "buidler publish patch"
   },
   "dependencies": {
+    "@aragon/contract-helpers-test": "^0.1.0",
+    "@aragon/minime": "1.0.0",
     "@aragon/os": "^4.4.0"
   },
   "devDependencies": {
