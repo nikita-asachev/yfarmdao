@@ -1,3 +1,5 @@
+
+const ERRORS = require('./helpers/errors')
 const { assertBn, assertRevert, assertAmountOfEvents } = require('@aragon/contract-helpers-test/src/asserts')
 const { pct16, bn, bigExp, getEventArgument, ZERO_ADDRESS } = require('@aragon/contract-helpers-test')
 const { newDao, installNewApp, encodeCallScript, ANY_ENTITY, EMPTY_CALLS_SCRIPT } = require('@aragon/contract-helpers-test/src/aragon-os')
