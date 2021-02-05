@@ -6,11 +6,19 @@
     "@aragon/api": "^2.0.0",
     "@aragon/api-react": "^2.0.0",
     "@aragon/ui": "^1.4.2",
+    "bn.js": "^4.11.8",
     "core-js": "^3.6.5",
+    "date-fns": "2.0.0",
+    "onecolor": "^3.1.0",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-linkify": "^0.2.2",
+    "react-spring": "^5.7.2",
     "regenerator-runtime": "^0.13.5",
-    "styled-components": "^5.1.1"
+    "rxjs": "^6.2.1",
+    "styled-components": "^5.1.1",
+    "web3": "1.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
